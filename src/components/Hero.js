@@ -34,7 +34,7 @@ function Hero() {
             </a>
 
 
-            <div className="flex  flex-row bg-[#0068B6d]/40 z-40 rounded-2xl">
+            <div className="flex  flex-row bg-[#0068B6d]/40 z-40 rounded-2xl justify-center items-center">
                 <a href="https://x.com/crabby0x60" target="_blank" rel="noopener noreferrer" className='z-40'>
                     <img src={twitter} alt="" className='p-3 z-40' />
                 </a>
