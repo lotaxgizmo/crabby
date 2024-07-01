@@ -22,7 +22,7 @@ function Welcome() {
                 />
                 <img src={greenback} alt="" className="hidden lg:flex" />
 
-                <p className="hidden lg:flex lg:absolute text-2xl lg:text-4xl lg:mx-24">
+                <p className="monts hidden lg:flex lg:absolute   lg:text-3xl lg:mx-24">
                     In Matt Furie's "The Night Riders," the crab serves as a pivotal
                     element in the adventure experienced by the nocturnal frog and rat.
                     Specifically, the crab represents a significant obstacle or
@@ -33,7 +33,7 @@ function Welcome() {
                     town to ocean.
                 </p>
                 <div className="lg:hidden flex backd bg-white lg:bg-transparent rounded-3xl p-4 lg:p-0">
-                    <p className="  lg:absolute text-2xl lg:text-4xl lg:mx-24">
+                    <p className="monts lg:absolute text-xl lg:text-4xl lg:mx-24">
                         In Matt Furie's "The Night Riders," the crab serves as a pivotal
                         element in the adventure experienced by the nocturnal frog and rat.
                         Specifically, the crab represents a significant obstacle or
