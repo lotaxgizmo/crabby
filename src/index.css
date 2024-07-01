@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.cdnfonts.com/css/genty-demo");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+body {
+  background-image: url(./assets/blueseabgg.svg) !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+  font-family: "Genty Demo", sans-serif;
+}
+
+.hero {
+  background-image: url(./assets/skybg.svg) !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.crabbynomnom {
+  background-image: url(./assets/oceanbg.svg) !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.bluesea {
+  background-image: url(./assets/blueseabgg.svg) !important;
+  background-position: bottom !important;
+  background-size: cover !important;
+}
+
+.monts {
+  font-family: "Montserrat", sans-serif;
+}
