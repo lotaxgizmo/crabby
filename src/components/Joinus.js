@@ -9,7 +9,7 @@ function Joinus() {
     return (
         <div id='joinus' className='bluesea flex flex-col items-center justify-center relative '>
             <img src={joinus} alt="" className=' rotate-6 mt-10 px-4' />
-
+            s
             <div className="btns flex flex-col lg:flex-row items-center justify-center rotate-6">
                 <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xc5f93997e111fc3dff6cb1f9ef84fd7040996de6" target="_blank" rel="noopener noreferrer" className='z-40'>
                     <img src={dexscreener} alt="" className='p-2' />

@@ -1,10 +1,10 @@
 import React from 'react'
-import buycrabby from '../assets/buycrabby.svg'
 import crabbyrock from '../assets/crabbyrock.svg'
 import beach from '../assets/beach.svg'
 import pepefrog from '../assets/pepefrog.svg'
 import crabbywho from '../assets/crabbywho.svg'
 import blurectangle from '../assets/blurectangle.png'
+import Buycrabby from './Buycrabby'
 
 function Who() {
     return (
@@ -29,7 +29,7 @@ function Who() {
                     <br />
                     <br />Thus, the crab plays a crucial part in shaping the adventurous spirit and narrative of "The Night Riders."
                 </p>
-                <img src={buycrabby} alt="" />
+                <Buycrabby />
             </div>
             <img src={blurectangle} alt="" className='w-full absolute top-0' />
             <img src={beach} alt="" className='w-full z-10 ' />

@@ -32,3 +32,38 @@ body {
 .monts {
   font-family: "Montserrat", sans-serif;
 }
+
+.helpmegod {
+  left: 0 !important;
+  top: 0 !important;
+  position: relative !important;
+}
+
+#helpmegod {
+  left: 0 !important;
+  top: 0 !important;
+  position: relative !important;
+}
+
+.contract-address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contract-address-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contract-address-button:hover {
+  background-color: #45a049;
+}
