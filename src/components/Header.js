@@ -35,7 +35,7 @@ function Header() {
                             </a>
                         ))}
                     </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x6096b8765eb48cd2193f840a977f3727e7800356" target="_blank" rel="noopener noreferrer">
                         <img src={buycrabby} alt="Buy Crabby" />
                     </a>
                 </div>
@@ -82,7 +82,7 @@ function Header() {
                             </a>
                         ))}
                     </div>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className='mt-5'>
+                    <a href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x6096b8765eb48cd2193f840a977f3727e7800356" target="_blank" rel="noopener noreferrer" className='mt-5'>
                         <img src={buycrabby} alt="Buy Crabby" />
                     </a>
                 </div>

@@ -54,7 +54,7 @@ function Welcome() {
             <img
                 src={fishy3}
                 alt=""
-                className="  absolute bottom-20 lg:left-20 left-0  z-30"
+                className="hidden lg:flex absolute bottom-20 lg:left-20 left-0  z-30"
             />
             <img
                 src={fishy2}

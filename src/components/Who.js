@@ -10,6 +10,8 @@ function Who() {
     return (
         <div id='about' className='bluesea flex flex-col items-start justify-center relative dmx-4 '>
             <div className='z-30 flex flex-col items-start justify-center mx-4 lg:mx-12 z-20'>
+                <a href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x6096b8765eb48cd2193f840a977f3727e7800356" className='z-20'>
+                </a>
                 <img src={crabbywho} alt="" />
                 <p className="monts hidden lg:flex dlg:absolute text-2xl lg:text-4xl lg:pr-[499px] mb-10">
                     The crab's importance lies in its role as a formidable and memorable adversary or danger that the characters must overcome or avoid.

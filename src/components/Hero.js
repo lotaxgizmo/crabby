@@ -7,8 +7,11 @@ import fish2 from '../assets/fish2.svg'
 import fish3 from '../assets/fish3.svg'
 import seaback from '../assets/seaback.svg'
 import seabackmobile from '../assets/seabackmobile.svg'
-import socials from '../assets/socials.svg'
 import buycrabby from '../assets/buycrabby.svg'
+import dextools from '../assets/dextools.svg'
+import tg from '../assets/tg.svg'
+import twitter from '../assets/twitter.svg'
+import uniswap from '../assets/uniswap.svg'
 
 function Hero() {
     return (
@@ -26,8 +29,27 @@ function Hero() {
 
             <img src={seaback} alt="" className='hidden lg:flex absolute -bottom-[600px] w-full' />
             <img src={seabackmobile} alt="" className='lg:hidden flex absolute -bottom-[30px] w-full' />
-            <img src={buycrabby} alt="" className='z-40 m-2 lg:-mt-20' />
-            <img src={socials} alt="" className='z-40' />
+            <a href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x6096b8765eb48cd2193f840a977f3727e7800356" target="_blank" rel="noopener noreferrer" className='flex z-40'>
+                <img src={buycrabby} alt="" className='z-40 m-2 lg:-mt-20' />
+            </a>
+
+
+            <div className="flex  flex-row bg-[#0068B6d]/40 z-40 rounded-2xl">
+                <a href="https://x.com/crabby0x60" target="_blank" rel="noopener noreferrer" className='z-40'>
+                    <img src={twitter} alt="" className='p-3 z-40' />
+                </a>
+                <a href="https://t.me/crabby0x60" target="_blank" rel="noopener noreferrer" className='z-40'>
+                    <img src={tg} alt="" className='p-3 z-40' />
+                </a>
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xc5f93997e111fc3dff6cb1f9ef84fd7040996de6" target="_blank" rel="noopener noreferrer" className='z-40'>
+                    <img src={dextools} alt="" className='p-3 z-40' />
+                </a>
+                <a href="https://app.uniswap.org/swap?&chain=mainnet&use=v2&outputCurrency=0x6096b8765eb48cd2193f840a977f3727e7800356" target="_blank" rel="noopener noreferrer" className='z-40'>
+                    <img src={uniswap} alt="" className='p-3 z-40' />
+                </a>
+
+            </div>
+
         </div>
     )
 }
