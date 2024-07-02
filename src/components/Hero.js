@@ -1,5 +1,5 @@
 import React from 'react'
-import heroimg from '../assets/heroimg.svg'
+import heroimg from '../assets/heroimg.png'
 import headertext2 from '../assets/headertext2.svg'
 import headertext1 from '../assets/headertext1.svg'
 import fish1 from '../assets/fish1.svg'
@@ -18,7 +18,7 @@ function Hero() {
         <div className='hero flex flex-col items-center justify-center relative pt-16'>
             <div className="ds flex flex-col items-center justify-center relative px-4 w-full">
                 <img src={headertext1} alt="" className='lg:w-auto w-[320px] absolute top-0 -my-2s self-start z-[2]' />
-                <img src={heroimg} alt="" className='lg:w-[450px] my-20 z-10' />
+                <img src={heroimg} alt="" className='lg:w-[550px] my-20 z-10' />
                 <img src={headertext2} alt="" className='lg:w-auto w-[320px] absolute -bottom-10 -my-2s self-end z-20' />
             </div>
 
