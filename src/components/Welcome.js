@@ -1,6 +1,6 @@
 import React from 'react'
 import welcome from '../assets/welcome.svg'
-import crablogo from '../assets/crablogo.svg'
+import crablogo from '../assets/crablogo1.jpg'
 import greenback from '../assets/greenback.svg'
 import fishy1 from '../assets/fishy1.svg'
 import fishy2 from '../assets/fishy2.svg'
@@ -15,11 +15,13 @@ function Welcome() {
             <img src={welcome} alt="" />
 
             <div className="relative flex flex-col items-center justify-center ">
-                <img
-                    src={crablogo}
-                    alt=""
-                    className="lg:absolute  top-0 lg:-top-20 lg:-right-20 w-20 lg:w-auto m-2"
-                />
+                <div className="lg:absolute  top-0 lg:-top-20 lg:-right-20 overflow-hidden crab bg-[#3D00BF] rounded-full">
+                    <img
+                        src={crablogo}
+                        alt=""
+                        className=" w-20 lg:w-32 m-2"
+                    />
+                </div>
                 <img src={greenback} alt="" className="hidden lg:flex" />
 
                 <p className="monts hidden lg:flex lg:absolute   lg:text-3xl lg:mx-24">
